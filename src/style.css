@@ -1,14 +1,27 @@
-h1 {
-  color: red;
+:root {
+  --branding-color: 868f96;
 }
 body {
   font-family: mulish;
 }
 .hero {
-  background-color: #f9f7fe;
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
   text-align: center;
+  padding: 60px;
 }
 .hero h1 {
   font-size: 36px;
   font-weight: bold;
+  color: white;
+}
+.hero h2 {
+  font-size: 24px;
+}
+.btn-branding {
+  color: var(--branding-color);
+  background: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
